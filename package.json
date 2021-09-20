@@ -1,0 +1,22 @@
+{
+  "name": "weather_service_package",
+  "version": "1.0.0",
+  "description": "service returning current weather at given location",
+  "main": "weather_service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/studienprojekt-sdp/weather_microservice.git"
+  },
+  "author": "David Scholtz, s4ddscho@uni-trier.de",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/studienprojekt-sdp/weather_microservice/issues"
+  },
+  "homepage": "https://github.com/studienprojekt-sdp/weather_microservice#readme",
+  "dependencies": {
+    "axios": "^0.21.4"
+  }
+}
