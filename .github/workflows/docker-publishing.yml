@@ -21,6 +21,6 @@ jobs:
       run: |
         docker login -u $DOCKER_USER -p $DOCKER_PASSWORD
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag weatherservice:$(date +%s)
+      run: docker build . --file Dockerfile -t weatherservice
     - name: Docker Push
-      run: docker push ${{secrets.DOCKER_USERID }}/weatherservice:tag
+      run: docker push ${{secrets.DOCKER_USERID }}/weatherservice
