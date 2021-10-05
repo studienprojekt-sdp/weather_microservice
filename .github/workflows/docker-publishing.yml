@@ -23,4 +23,4 @@ jobs:
     - name: Build the Docker image
       run: docker build . --file Dockerfile --tag ${{secrets.DOCKER_USERID }}/weatherservice
     - name: Docker Push
-      run: docker push ${{secrets.DOCKER_USERID }}/weatherservice:test
+      run: docker push ${{secrets.DOCKER_USERID }}/weatherservice:latest
